@@ -16,6 +16,7 @@
             height: 470px;
             background: #eee;
             padding: 20px;
+            min-width: 260px;
             }
         #left{
             padding: 20px;
