@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.div1, .div2, .div3, .div4 {
+    flex: 0 0 auto;
+    width: 150px;
+}
+
+.div1 {
+    border: 1px solid #f00;
+    height: 120px;
+}
+
+.div2 {
+    border: 1px solid #f00;
+    height: 100px;
+}
+
+.div3 {
+    border: 1px solid #f00;
+    height: 40px;
+}
+
+.div4 {
+    border: 1px solid #0f0;
+    height: 200px;
+}
+
+@media (max-width: 640px) {
+    .container {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .div4 {
+        order: -1;
+    }
+}
