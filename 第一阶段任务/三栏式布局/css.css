@@ -1,0 +1,54 @@
+ body{padding: 20px;}
+        #tdlogo{
+            width:80px;
+            height: 80px;
+            background: #eee;
+            border:1px solid #999;
+            float: left;
+        }
+        #tdname{
+            float: left;
+            font-size: 14px;
+            margin-left: 20px;
+        }
+        #main{
+            border:1px solid #999;
+            height: 470px;
+            background: #eee;
+            padding: 20px;
+            min-width: 800px;
+            }
+        #left{
+            padding: 20px;
+            border: 1px solid #999;
+            width: 160px;
+            height: 80px;
+            float: left;
+            background: #fff;
+        }
+        #right{
+            float: right;
+            width: 80px;
+            border: 1px solid #999;
+            background: #fff;
+            height: 390px;
+            padding: 20px;
+        }
+        #center{
+            background: #fff;
+            border: 1px solid #999;
+            height: 380px;
+            margin-left: 220px;
+            margin-right: 140px;
+            padding: 20px;
+        }
+        #permeg{
+            width: 80px;
+            height:80px;
+            border: 1px solid #999;
+            background: #eee;
+            margin-bottom: 20px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
