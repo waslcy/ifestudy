@@ -99,7 +99,7 @@ h3{
 }
 .middle-body02{
     width: 96%;
-    height: 1700px;
+    height: 1750px;
     background-color: white;
     margin: auto;
     margin-top: 20px;
@@ -134,7 +134,7 @@ h3{
 }
 .middle-body03{
     width: 96%;
-    height: 450px;
+    height: 480px;
     background-color: white;
     margin: auto;
     margin-top: 20px;
@@ -249,5 +249,6 @@ h3{
     text-align: center;
 }
 .bottom p{
+    margin-top: 30px;
     line-height: 50px;
 }
